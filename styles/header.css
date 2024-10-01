@@ -1,0 +1,123 @@
+.header{
+    height: 60px;
+    background-color: #FFF;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(196, 188, 188) ;
+    border-bottom-style:solid ;
+    z-index: 5;
+}.left-section{
+    width: 150px;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}.middle-section{
+ 
+    margin-right: 5px;
+    
+    flex: 1;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+}.right-section{
+    width: 250px;
+    
+    display: flex;
+    align-items:  center;
+   
+    
+}.ham-menu{
+    height: 20px;
+    margin-left: 15px;
+}.ham-menu:hover,.you-logo,.dp,.bell,.create,.search-icon,.mic{
+    cursor: pointer;
+}
+.you-logo{
+    height: 25px;
+    margin-left: 20px;
+    
+}.bell{
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}.dp{
+    height: 35px;
+    border-radius: 50%;
+   
+}.create{
+    margin-left: 10px;
+    border-radius: 35px 35px;
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 1s;
+}.create:hover{
+    background-color: dimgrey;
+    
+
+}.search-box{
+   width: 80%;
+   height: 40px;
+  
+   border-radius:  35px 0 0 35px;
+   margin-right: 0;
+   border-color: rgb(202, 195, 195);
+}.mic{
+    height: 40px;
+    border-radius: 90%;  
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    margin-left: 15px;
+    
+}.search-icon{
+    height: 30px;
+    margin-left: 0;
+    
+   
+}.search-box::placeholder{
+ 
+    font-size: 15px;
+    padding: 2px;
+    color: rgb(29, 29, 29);
+}.tab{
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 60px;
+    left: 100px;
+    right: 0;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    z-index: 5;
+    
+}.tab-button{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 14px;
+    height: 35px;
+    border-radius: 10% ;
+    border: none;
+    padding: 7px 11px;
+    background-color: rgb(240, 234, 234);
+    transition: 1s;
+}.tab-button:hover{
+    cursor: pointer;
+    background-color: #c8bdbd;
+}   
